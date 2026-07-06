@@ -1,0 +1,7 @@
+{
+    "title": "Updated Test Automation Product",
+    "price": 39.99,
+    "description": "Product updated by the FakeStore API automation framework",
+    "image": "https://i.pravatar.cc/300",
+    "category": "electronics"
+}

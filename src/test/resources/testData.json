@@ -1,0 +1,9 @@
+{
+  "productDashboardData": {
+    "sampleScenario": {
+      "title": "Sample Product",
+      "price": 19.99,
+      "category": "electronics"
+    }
+  }
+}
