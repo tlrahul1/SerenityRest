@@ -1,0 +1,14 @@
+{
+  "id": 0,
+  "userId": 1,
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven Backpack",
+      "price": 109.95,
+      "description": "Sample product",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/product.png"
+    }
+  ]
+}

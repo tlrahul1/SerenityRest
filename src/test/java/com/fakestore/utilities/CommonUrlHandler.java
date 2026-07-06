@@ -12,13 +12,22 @@ public class CommonUrlHandler {
     private static final String webserviceUrl = UrlResolverUtil.getRequiredProperty("fakestore.api", envVar);
     private static final Map<String, String> endpointMap = new HashMap<>();
 
-    // Product_Module
+    // ===========================
+    // Product Module
+    // ===========================
     static {
         UrlResolverUtil.mapTo("product.master", new String[] {
                 "getproducts:",
                 "createproduct:",
                 "updateproduct:/1",
                 "deleteproduct:/1"
+        }, endpointMap, webserviceUrl, envVar);
+
+        // ===========================
+        // Cart Module
+        // ===========================
+        UrlResolverUtil.mapTo("cart.master", new String[] {
+                "createcart:"
         }, endpointMap, webserviceUrl, envVar);
     }
 
